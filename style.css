@@ -136,8 +136,10 @@ nav {
   box-shadow: 0 5px 15px rgba(0,0,0,0.4);
   text-decoration: none;
   font-weight: 600;
+  color: #fff; /* ✅ Add this line to make text white */
   transition: background 0.3s ease;
 }
+
 
 .hero .btn:hover {
   background: linear-gradient(135deg, #388e3c, #66bb6a);
@@ -244,3 +246,4 @@ footer {
   animation: fadeIn 1s ease forwards;
   animation-delay: 0s;
 }
+
